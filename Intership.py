@@ -2,7 +2,7 @@ import cv2
 import os
 import string
 
-img = cv2.imread("/Users/anshukavashishtha/Desktop/photo.jpeg") 
+img = cv2.imread("photo.jpeg") #file path
 
 msg = input("Enter secret message: ")
 password = input("Enter a passcode: ")
